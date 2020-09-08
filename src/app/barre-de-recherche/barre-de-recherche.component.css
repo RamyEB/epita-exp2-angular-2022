@@ -1,0 +1,24 @@
+#wallpaper{
+    width: 100%;
+    height: 30vh;
+    background-color: brown;
+    display: grid;
+    place-items: center;
+}
+
+#search{
+    background-color: white;
+    width: max-content;
+    padding: 15px 35px 10px 35px;
+    border-radius: 7px;
+}
+
+.example-full-width{
+    width:400px;
+}
+
+
+#search mat-form-field{
+    margin-right: 50px;
+}
+

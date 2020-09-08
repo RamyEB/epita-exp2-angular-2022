@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-barre-de-recherche',
   templateUrl: './barre-de-recherche.component.html',
