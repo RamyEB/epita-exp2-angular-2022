@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project1';
+  term = ""
 
   getChildTerm(term: string) {
-    console.log(term)
+    this.term = term
   }
 
 }

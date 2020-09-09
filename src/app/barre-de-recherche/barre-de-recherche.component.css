@@ -17,20 +17,32 @@
     width: 500px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 800px) {
+#search mat-form-field {
+    margin-right: 50px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
     .example-full-width {
         width: 300px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 450px) and (max-width: 600px) {
     .example-full-width {
-        width: 100px;
+        width: 170px;
+    }
+    #search mat-form-field {
+        margin-right: 30px;
     }
 }
 
-#search mat-form-field {
-    margin-right: 50px;
+@media screen and (max-width: 450px) {
+    .example-full-width {
+        width: 100px;
+    }
+    #search mat-form-field {
+        margin-right: 30px;
+    }
 }
 
 @media screen and (max-width: 370px) {
