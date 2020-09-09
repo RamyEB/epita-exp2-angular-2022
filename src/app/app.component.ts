@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project1';
+
+  getChildTerm(term: string) {
+    console.log(term)
+  }
+
 }

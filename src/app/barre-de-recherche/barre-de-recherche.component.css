@@ -1,4 +1,4 @@
-#wallpaper{
+#wallpaper {
     width: 100%;
     height: 30vh;
     background-color: brown;
@@ -6,19 +6,46 @@
     place-items: center;
 }
 
-#search{
+#search {
     background-color: white;
     width: max-content;
     padding: 15px 35px 10px 35px;
     border-radius: 7px;
 }
 
-.example-full-width{
-    width:400px;
+.example-full-width {
+    width: 500px;
 }
 
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .example-full-width {
+        width: 300px;
+    }
+}
 
-#search mat-form-field{
+@media screen and (max-width: 500px) {
+    .example-full-width {
+        width: 100px;
+    }
+}
+
+#search mat-form-field {
     margin-right: 50px;
 }
 
+@media screen and (max-width: 370px) {
+    #search {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #search mat-form-field {
+        margin-right: 0px;
+    }
+    #wallpaper {
+        background-color: #fff;
+    }
+    .example-full-width {
+        width: 100%;
+    }
+}

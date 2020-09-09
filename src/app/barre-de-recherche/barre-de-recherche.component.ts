@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 
 
 @Component({
@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./barre-de-recherche.component.css']
 })
 export class BarreDeRechercheComponent implements OnInit {
-  searchName = "";
+  @Output() searchName = new EventEmitter<string>();
+
+  term = "";
 
   recherche() {
-    console.log(this.searchName)
-    this.searchName = ""
+    this.searchName.emit(this.term)
+    this.term = ""
   }
 
   constructor() { }
