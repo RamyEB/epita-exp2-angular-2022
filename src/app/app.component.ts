@@ -12,9 +12,6 @@ export class AppComponent {
 
 
   constructor(private networkService: NetworkService){}
-  getChildTerm(term: string) {
-    this.term = term
-  }
 
   ngOnInit(): void {
     this.networkService.getCurrentLocation().then(pos => {

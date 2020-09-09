@@ -9,7 +9,6 @@ export class NetworkService {
 
   latitude: number = 37.786882;
   longitude: number = -122.399972;
-  term: string = "delis";
   constructor(protected http: HttpClient) { }
 
 
@@ -28,12 +27,14 @@ export class NetworkService {
   }
 
 
-  getRestaurants(): Observable<Yelp>
+  getRestaurants(term): Observable<Yelp>
   {
     
     let lng = window.localStorage.getItem("Longitude");
     let lat = window.localStorage.getItem("Latitude");
-    let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${this.term}%26latitude=${lng}%26longitude=${lat}`
+
+    let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
+    
     return this.http.get<Yelp>(url)
       
   }

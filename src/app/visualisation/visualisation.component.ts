@@ -7,14 +7,17 @@ import { NetworkService } from '../Services/network.service'
 })
 export class VisualisationComponent implements OnInit {
 
-  businesses: string[] = [];
-  total: number = 0;
+  term: string;
+  businesses: string[];
+  total: number;
   constructor(private networkService: NetworkService) { }
 
 
-  ngOnInit(): void {
-    this.networkService.getRestaurants().subscribe(data => {
-      console.log(data)
+  launchSearch(term: string)
+  {
+    this.term = term;
+    console.log(term)
+    this.networkService.getRestaurants(this.term).subscribe(data => {
       this.businesses = data.businesses;
       this.total = data.total;
     },
@@ -24,5 +27,9 @@ export class VisualisationComponent implements OnInit {
       else
         console.log('Server side error')
     })
+  }
+
+  ngOnInit(): void {
+
   }
 }
