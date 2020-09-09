@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { environment } from '../../environments/environment'
+import { HttpClient} from '@angular/common/http';
 import { Yelp } from '../Interfaces/yelp'
 import { Observable } from 'rxjs';
 @Injectable({
@@ -13,25 +12,29 @@ export class NetworkService {
   term: string = "delis";
   constructor(protected http: HttpClient) { }
 
-  createAuthHeaders(header: HttpHeaders)
+
+  getCurrentLocation(): Promise<any>
   {
-    header.append('Authorization', `Bearer ${environment.yelp_api_key}`  )
+    return new Promise((resolve, reject) => {
+
+      navigator.geolocation.getCurrentPosition(resp => {
+
+          resolve({lng: resp.coords.longitude, lat: resp.coords.latitude});
+        },
+        err => {
+          reject(err);
+        });
+    });
   }
 
-  getCurrentLocation()
-  {
-    navigator.geolocation.getCurrentPosition(position => {
-      this.latitude = position.coords.latitude
-      this.longitude = position.coords.longitude
-    })
-  }
 
   getRestaurants(): Observable<Yelp>
   {
-    let header = new HttpHeaders();
-    this.getCurrentLocation()
-    let url = `https://api.yelp.com/v3/businesses/search?term=${this.term}&latitude=${this.latitude}&longitude=${this.longitude}`
-    this.createAuthHeaders(header)
-    return this.http.get<Yelp>(url, {headers: header})
+    
+    let lng = window.localStorage.getItem("Longitude");
+    let lat = window.localStorage.getItem("Latitude");
+    let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${this.term}%26latitude=${lng}%26longitude=${lat}`
+    return this.http.get<Yelp>(url)
+      
   }
 }

@@ -22,7 +22,7 @@ export class VisualisationComponent implements OnInit {
       if (err.error instanceof Error)
         console.log(`Error: ${err}`)
       else
-        console.log('Service side error')
+        console.log('Server side error')
     })
   }
 }
