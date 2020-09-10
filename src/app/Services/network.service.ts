@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class NetworkService {
 
-  latitude: number = 37.786882;
-  longitude: number = -122.399972;
+  latitude: number;
+  longitude: number;
   constructor(protected http: HttpClient) { }
 
 
