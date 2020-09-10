@@ -32,9 +32,7 @@ export class NetworkService {
     
     let lng = window.localStorage.getItem("Longitude");
     let lat = window.localStorage.getItem("Latitude");
-
     let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
-    
     return this.http.get<Yelp>(url)
       
   }
