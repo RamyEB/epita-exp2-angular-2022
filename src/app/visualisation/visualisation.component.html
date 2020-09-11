@@ -1,5 +1,4 @@
 <app-barre-de-recherche (searchName)="launchSearch($event)"></app-barre-de-recherche>
-
 <!-- <div class="container mt-2">
   <div class="row offset-md-3">
     <p *ngIf="total > -1">
@@ -40,9 +39,9 @@
     </div>
 </div> -->
 
-<div id="giga_result_container">
+<!-- <div id="giga_result_container">
   <div *ngIf="true" id="result_container">
-      <!-- <h4 id="nbResults" class="mat-h4 mat-subheading-1">Nombre de résultat : 150</h4> -->
+       <h4 id="nbResults" class="mat-h4 mat-subheading-1">Nombre de résultat : 150</h4> 
       <div class="element" *ngFor="let business of businesses">
           <div class="imgContainer">
             <img [src]="business.image_url != '' ? business.image_url : dummy_image" class="card-img" alt="...">
@@ -55,10 +54,10 @@
                   <p class="adress">À {{(business.distance / 1000).toFixed(1)}} km de vous !</p>
               </div>
               <div class="options">
-<!--                   <div class="stars">
+                   <div class="stars">
                       <img *ngFor="let number of business.rating" class="star" style="width:15px" src="../../assets/images/star.png">
                   </div>
- -->
+
                   <div class="avaible">
                       <div *ngIf="business.is_close; else elseTemplate" class="main">
                           <p class="open"><img class="avaible_logo" style="width:15px" src="../../assets/images/dot.png"> Ouvert</p>
@@ -77,4 +76,52 @@
           <h2>No result found.</h2>
       </div>
   </div>
+</div> -->
+<div id="giga_result_container">
+
+  <div *ngIf="true" id="result_container">
+
+      <!-- <h4 id="nbResults" class="mat-h4 mat-subheading-1">Nombre de résultat : 150</h4> -->
+      <div class="element" *ngFor="let business of businesses">
+
+          <div class="imgContainer">
+              <img [src]="business.image_url != '' ? business.image_url : dummy_image">
+
+          </div>
+          <div class="info"> 
+              <div class="text">
+                  <p class="title">{{business.name}}</p>
+                  <!-- <p class="adress">25 rue d,d binet, 75014 Paris</p> -->
+                  <p class="adress">{{business.location.address1}}, {{business.location.zipcode}} {{business.location.city}}<br><span style="color:grey;">À {{(business.distance / 1000).toFixed(1)}} km de vous !</span></p>
+                  <!-- <p class="adress">À {{(business.distance / 1000).toFixed(1)}} km de vous !</p> -->
+              </div>
+              <div class="options">
+                <p *ngIf="business.price != undefined" class="price">{{(business.price).replace("$", "€")}}</p>
+                <p *ngIf="business.price == undefined" style="color:grey" class="price">----</p>
+                  <!-- <p class="price">€€€€</p> -->
+                  <div class="stars">
+                      <img *ngFor="let item of arrayStars(business.rating); let i=index"  class="star" style="width:15px" src="../../assets/images/star.png">
+                  </div>
+
+                  <div class="avaible">
+                      <div *ngIf="openOrNot(business); else elseTemplate" class="main">
+                          <p class="open"><img class="avaible_logo" style="width:15px" src="../../assets/images/dot.png"> Ouvert</p>
+                      </div>
+                      <!-- <div *ngIf="business.is_close == true;" class="main">
+                        <p class="closet"><img class="avaible_logo" style="width:15px" src="../../assets/images/close.png"> Fermé</p>
+                      </div> -->
+                      <ng-template #elseTemplate>
+                          <p class="closet"><img class="avaible_logo" style="width:15px" src="../../assets/images/close.png"> Fermé</p>
+
+                      </ng-template>
+                  </div>
+                  <button mat-flat-button color="primary" (click)="appeler($event, business.phone)"><img class="phone_logo" style="width:15px"src="../../assets/images/phone.png">Appeler</button>
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
 </div>
