@@ -33,11 +33,16 @@ export class NetworkService {
     let lng = window.localStorage.getItem("Longitude");
     let lat = window.localStorage.getItem("Latitude");
 
-    let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
-    // if(term=="1"){
-    //   var url = "../../assets/example.api.json"
-    // }else
-    //   var url = "../../assets/example2.api.json"
+    // let url = `http://localhost:8080/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
+    if(term=="1"){
+      var url = "../../assets/example.api.json"
+    }else if (term=="2")
+      var url = "../../assets/example2.api.json"
+    else
+      var url = "../../assets/example3.api.json"
+
+
+
     return this.http.get<Yelp>(url)
       
   }

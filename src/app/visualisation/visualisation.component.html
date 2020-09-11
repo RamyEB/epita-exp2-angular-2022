@@ -79,7 +79,7 @@
 </div> -->
 <div id="giga_result_container">
 
-  <div *ngIf="true" id="result_container">
+  <div *ngIf="businesses?.length > 0" id="result_container">
 
       <!-- <h4 id="nbResults" class="mat-h4 mat-subheading-1">Nombre de résultat : 150</h4> -->
       <div class="element" *ngFor="let business of businesses">
@@ -122,6 +122,11 @@
 
       </div>
 
-  </div>
+  </div>  
+    <div *ngIf="businesses?.length == 0" id="result_container">
+      <h2>No results found.</h2>
+    </div>
 
 </div>
+
+
