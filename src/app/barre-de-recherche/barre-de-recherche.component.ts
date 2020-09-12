@@ -14,6 +14,10 @@ export class BarreDeRechercheComponent implements OnInit {
   recherche() {
     this.searchName.emit(this.term)
     this.term = ""
+    document.getElementById("wallpaper").classList.add("firstSearch");
+    document.getElementById("result_container").classList.add("firstSearchMargin");
+
+
   }
 
   constructor() { }

@@ -1,0 +1,823 @@
+{
+    "businesses": [
+        {
+            "id": "g4cUKC11o7SNGKbMeAq2HA",
+            "alias": "go-sport-paris-3",
+            "name": "Go Sport",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cuK9YqH9zYgSJciwTO8lbA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/go-sport-paris-3?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "sportswear",
+                    "title": "Sports Wear"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 48.84394,
+                "longitude": 2.3824
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "135 avenue Daumesnil",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75012",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "135 avenue Daumesnil",
+                    "75012 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33144743838",
+            "display_phone": "+33 1 44 74 38 38",
+            "distance": 3579.323607038343
+        },
+        {
+            "id": "4DMu1s_kTLaOH0ANbvemWQ",
+            "alias": "sports-jeunes-paris-2",
+            "name": "Sports Jeunes",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sports-jeunes-paris-2?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sportswear",
+                    "title": "Sports Wear"
+                },
+                {
+                    "alias": "active",
+                    "title": "Active Life"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.849542,
+                "longitude": 2.3455436
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "46 Rue Ecoles",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75005",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "46 Rue Ecoles",
+                    "75005 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33143542230",
+            "display_phone": "+33 1 43 54 22 30",
+            "distance": 1402.8364676451263
+        },
+        {
+            "id": "hJiJ2ZqlH4Uw7IgWOE_whA",
+            "alias": "go-sport-paris-5",
+            "name": "Go Sport",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mH17Qhd_3Vii0ZdhoIoroQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/go-sport-paris-5?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "sportgoods",
+                    "title": "Sporting Goods"
+                }
+            ],
+            "rating": 1.5,
+            "coordinates": {
+                "latitude": 48.8653687,
+                "longitude": 2.3695826
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "117 boulevard Richard Lenoir",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75011",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "117 boulevard Richard Lenoir",
+                    "75011 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33155283550",
+            "display_phone": "+33 1 55 28 35 50",
+            "distance": 2042.3575749969493
+        },
+        {
+            "id": "rkGDA0GD1yuPRLxQsqRsgQ",
+            "alias": "go-sport-paris-7",
+            "name": "Go Sport",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/s1fmA5R0KnnOYPK0Jz0fCw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/go-sport-paris-7?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "sportgoods",
+                    "title": "Sporting Goods"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 48.838722,
+                "longitude": 2.253184
+            },
+            "transactions": [],
+            "location": {
+                "address1": "12/16 avenue de la Porte de St Cloud",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75016",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "12/16 avenue de la Porte de St Cloud",
+                    "75016 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33140712200",
+            "display_phone": "+33 1 40 71 22 00",
+            "distance": 7003.465846299198
+        },
+        {
+            "id": "Bqz6bD5TZRJX7IB9lEaa9Q",
+            "alias": "sport-nutrition-center-paris",
+            "name": "Sport Nutrition Center",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/_uHUmav4W6EuFLrg88Enug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sport-nutrition-center-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "weightlosscenters",
+                    "title": "Weight Loss Centers"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.8688155,
+                "longitude": 2.3338634
+            },
+            "transactions": [],
+            "location": {
+                "address1": "39 rue St Augustin",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75002",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "39 rue St Augustin",
+                    "75002 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33147428354",
+            "display_phone": "+33 1 47 42 83 54",
+            "distance": 973.9340398512148
+        },
+        {
+            "id": "dehqSFQ4aj3A922MNg-_oQ",
+            "alias": "sport-system-paris-3",
+            "name": "Sport System",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wwCg5_TqbWMwJYjzF242-Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sport-system-paris-3?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sportswear",
+                    "title": "Sports Wear"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 48.86299,
+                "longitude": 2.40694
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "155 Rue Bagnolet",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75020",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "155 Rue Bagnolet",
+                    "75020 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33140303128",
+            "display_phone": "+33 1 40 30 31 28",
+            "distance": 4741.0366727192995
+        },
+        {
+            "id": "xCNG2OQiJfcTC5xxQqSxLg",
+            "alias": "apollo-sporting-club-paris",
+            "name": "Apollo Sporting Club",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0ZTtBu5Z1kk6D_G2sdf4jA/o.jpg",
+            "is_closed": true,
+            "url": "https://www.yelp.com/biz/apollo-sporting-club-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                },
+                {
+                    "alias": "boxing",
+                    "title": "Boxing"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.8785618,
+                "longitude": 2.3603689
+            },
+            "transactions": [],
+            "location": {
+                "address1": "29 rue Jacques Louvel Tessier",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75010",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "29 rue Jacques Louvel Tessier",
+                    "75010 Paris",
+                    "France"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 2276.946015354638
+        },
+        {
+            "id": "E0GH6FstiFuLNCGcZmTRig",
+            "alias": "paris-université-club-rugby-paris",
+            "name": "Paris Université Club Rugby",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BKefHIuahgzwvKm6mergGw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/paris-universit%C3%A9-club-rugby-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                },
+                {
+                    "alias": "football",
+                    "title": "Soccer"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 48.8182,
+                "longitude": 2.34429
+            },
+            "transactions": [],
+            "location": {
+                "address1": "17 ave Pierre de Coubertin",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75013",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "17 ave Pierre de Coubertin",
+                    "75013 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33144166290",
+            "display_phone": "+33 1 44 16 62 90",
+            "distance": 4868.254632287934
+        },
+        {
+            "id": "pNk9BtqXXx4-kwYOsV1lgQ",
+            "alias": "playoff-paris-3",
+            "name": "PlayOff",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NDE34RPi9WFf2tWdcKlsMQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/playoff-paris-3?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "sportsbars",
+                    "title": "Sports Bars"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 48.87923,
+                "longitude": 2.29924
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "58 avenue de Wagram",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75017",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "58 avenue de Wagram",
+                    "75017 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33156797090",
+            "display_phone": "+33 1 56 79 70 90",
+            "distance": 3676.395276085532
+        },
+        {
+            "id": "zSJhWhkWhuLbmou6PqarcQ",
+            "alias": "l-usine-paris-2",
+            "name": "L'Usine",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/AQMV73JzjjE78dCuZZye2A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/l-usine-paris-2?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 48.8596999,
+                "longitude": 2.34988
+            },
+            "transactions": [],
+            "location": {
+                "address1": "16-20 rue Quincampoix",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75004",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "16-20 rue Quincampoix",
+                    "75004 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33144613131",
+            "display_phone": "+33 1 44 61 31 31",
+            "distance": 617.8660079311245
+        },
+        {
+            "id": "N-k7ML-fGy3AvmTVvWY1lA",
+            "alias": "chattanooga-paris",
+            "name": "Chattanooga",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qVnoaLyhno69tgu2O7BF_Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chattanooga-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sportswear",
+                    "title": "Sports Wear"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.85686,
+                "longitude": 2.30459
+            },
+            "transactions": [],
+            "location": {
+                "address1": "53 Avenue Bosquet",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75007",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "53 Avenue Bosquet",
+                    "75007 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33145517665",
+            "display_phone": "+33 1 45 51 76 65",
+            "distance": 2805.464051835183
+        },
+        {
+            "id": "6WEv0x3VxwKDth2s-gDlYA",
+            "alias": "decathlon-paris-10",
+            "name": "Decathlon",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DUTqx1K5Azo0D7Zpye4BPw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/decathlon-paris-10?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 27,
+            "categories": [
+                {
+                    "alias": "sportgoods",
+                    "title": "Sporting Goods"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 48.869291,
+                "longitude": 2.325346
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "23 boulevard de la Madeleine",
+                "address2": "",
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75001",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "23 boulevard de la Madeleine",
+                    "75001 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33155359755",
+            "display_phone": "+33 1 55 35 97 55",
+            "distance": 1474.8562636811318
+        },
+        {
+            "id": "yHH6_wFkEQ_tEf_XdQ0UYw",
+            "alias": "cmg-sports-club-paris-17",
+            "name": "CMG Sports Club",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zLCKe-bDGsT_YQS5ZmVdOA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cmg-sports-club-paris-17?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "gyms",
+                    "title": "Gyms"
+                },
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 48.82796,
+                "longitude": 2.35514
+            },
+            "transactions": [],
+            "location": {
+                "address1": "14 rue Vandrezanne",
+                "address2": "",
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75013",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "14 rue Vandrezanne",
+                    "75013 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33145803416",
+            "display_phone": "+33 1 45 80 34 16",
+            "distance": 3881.0668820744672
+        },
+        {
+            "id": "o8g9wkQArBvvGrOjKfUoaA",
+            "alias": "cmg-sports-club-paris-4",
+            "name": "CMG Sports Club",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZIybJmtpAha1tNsndyCTCg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cmg-sports-club-paris-4?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "gyms",
+                    "title": "Gyms"
+                },
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 48.853199005127,
+                "longitude": 2.37021708488464
+            },
+            "transactions": [],
+            "location": {
+                "address1": "4 place de la Bastille",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75012",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "4 place de la Bastille",
+                    "75012 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33156950905",
+            "display_phone": "+33 1 56 95 09 05",
+            "distance": 2284.8016121463647
+        },
+        {
+            "id": "uyRaeEgWddflwHIJ5R3asA",
+            "alias": "le-coq-sportif-paris-2",
+            "name": "Le Coq Sportif",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/n0g_D-z84b8dmySU2ZE0hA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/le-coq-sportif-paris-2?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sportswear",
+                    "title": "Sports Wear"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 48.86329258,
+                "longitude": 2.34590385
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "1 rue Montmartre",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75001",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "1 rue Montmartre",
+                    "75001 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33140130219",
+            "display_phone": "+33 1 40 13 02 19",
+            "distance": 308.86145823259085
+        },
+        {
+            "id": "iXSeKslJDWfqmSTiBmiTCg",
+            "alias": "palais-des-sports-gabriel-péri-levallois-perret",
+            "name": "Palais des sports Gabriel-Péri",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TJPY-kSRz1THCeGCO64YpQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/palais-des-sports-gabriel-p%C3%A9ri-levallois-perret?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "stadiumsarenas",
+                    "title": "Stadiums & Arenas"
+                },
+                {
+                    "alias": "recreation",
+                    "title": "Recreation Centers"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.8905625,
+                "longitude": 2.2890488
+            },
+            "transactions": [],
+            "location": {
+                "address1": "19 bis rue Gabriel-Péri",
+                "address2": "centre ville",
+                "address3": null,
+                "city": "Levallois Perret",
+                "zip_code": "92300",
+                "country": "FR",
+                "state": "92",
+                "display_address": [
+                    "19 bis rue Gabriel-Péri",
+                    "centre ville",
+                    "92300 Levallois Perret",
+                    "France"
+                ]
+            },
+            "phone": "+33147575485",
+            "display_phone": "+33 1 47 57 54 85",
+            "distance": 5019.516025998709
+        },
+        {
+            "id": "1-6omWVMWuVScwHjZ5F4cQ",
+            "alias": "club-m-paris",
+            "name": "Club M",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/club-m-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 48.8612518,
+                "longitude": 2.4054999
+            },
+            "transactions": [],
+            "location": {
+                "address1": "138 Rue de Bagnolet",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75020",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "138 Rue de Bagnolet",
+                    "75020 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33143700808",
+            "display_phone": "+33 1 43 70 08 08",
+            "distance": 4640.2367382459615
+        },
+        {
+            "id": "McaFxsuDEseut-sHbEcA5A",
+            "alias": "j-a-m-tennis-de-table-paris",
+            "name": "J.A.M. - Tennis de table",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ILii8YFQgfrOzcEg39CyCA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/j-a-m-tennis-de-table-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 48.82825,
+                "longitude": 2.32545
+            },
+            "transactions": [],
+            "location": {
+                "address1": "99 rue d'Alésia",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75014",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "99 rue d'Alésia",
+                    "75014 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33153624045",
+            "display_phone": "+33 1 53 62 40 45",
+            "distance": 3951.02294502738
+        },
+        {
+            "id": "pVICLFc18hQGrgLy6w6mGA",
+            "alias": "centre-sportif-charles-moureu-paris",
+            "name": "Centre Sportif Charles Moureu",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/X1-rD_IRxNkwa2F7sMHtZA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/centre-sportif-charles-moureu-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sports_clubs",
+                    "title": "Sports Clubs"
+                },
+                {
+                    "alias": "tennis",
+                    "title": "Tennis"
+                },
+                {
+                    "alias": "football",
+                    "title": "Soccer"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 48.8277126270307,
+                "longitude": 2.36423525586801
+            },
+            "transactions": [],
+            "location": {
+                "address1": "34 rue Baudricourt",
+                "address2": "",
+                "address3": "",
+                "city": "Paris",
+                "zip_code": "75013",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "34 rue Baudricourt",
+                    "75013 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33153609110",
+            "display_phone": "+33 1 53 60 91 10",
+            "distance": 4136.797955924062
+        },
+        {
+            "id": "47Zk7Gey6BZf1wUWHlsXoQ",
+            "alias": "made-in-sport-paris",
+            "name": "Made in Sport",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/made-in-sport-paris?adjust_creative=GqLjz3PjZm8tc9pRB0WFdA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GqLjz3PjZm8tc9pRB0WFdA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "wholesale_stores",
+                    "title": "Wholesale Stores"
+                },
+                {
+                    "alias": "sportgoods",
+                    "title": "Sporting Goods"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 48.860593,
+                "longitude": 2.3500104
+            },
+            "transactions": [],
+            "location": {
+                "address1": "33 Rue Quincampoix",
+                "address2": null,
+                "address3": null,
+                "city": "Paris",
+                "zip_code": "75004",
+                "country": "FR",
+                "state": "75",
+                "display_address": [
+                    "33 Rue Quincampoix",
+                    "75004 Paris",
+                    "France"
+                ]
+            },
+            "phone": "+33144618041",
+            "display_phone": "+33 1 44 61 80 41",
+            "distance": 594.8800924250901
+        }
+    ],
+    "total": 646,
+    "region": {
+        "center": {
+            "longitude": 2.3421478271484375,
+            "latitude": 48.86195860677958
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NetworkService } from '../Services/network.service'
+
 @Component({
   selector: 'app-visualisation',
   templateUrl: './visualisation.component.html',
@@ -18,7 +19,7 @@ export class VisualisationComponent implements OnInit {
   launchSearch(term: string)
   {
     this.term = term;
-    console.log(term)
+    // console.log(term)
     this.networkService.getRestaurants(this.term).subscribe(data => {
       this.businesses = data.businesses;
       this.total = data.total;
@@ -31,7 +32,28 @@ export class VisualisationComponent implements OnInit {
     })
   }
 
+  arrayStars(n: number): any[] {
+    let tab = []
+    for (let i = 0; i < n; i++){
+      tab.push(i)
+    }
+    return tab;
+  }
+
+  openOrNot(bool :any){
+    return !bool.is_closed
+  }
+
+  appeler(event: any, phone: string){
+    let target = event.target
+    if(phone)
+    target.innerHTML = `<span style="font-weight: lighter;">${phone}</span>`;
+    else target.innerHTML = `<span style="font-weight: lighter;">Pas de numéro</span>`;
+
+  }
+
   ngOnInit(): void {
 
   }
+
 }
