@@ -20,11 +20,13 @@ export class BarreDeRechercheComponent implements OnInit {
 
   }
 
+  onKey(event: any)
+  {
+    if (event.key === 'Enter' || event.keyCode === 13)
+      this.recherche()
+  }
   constructor() { }
 
   ngOnInit(): void {
   }
 }
-
-// https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=7f1dcb2ca9f1186a88a3a32ff1a64971&tags=sport&format=json&nojsoncallback=1&api_sig=83bfc68817e674fd392e7333bf9a26b8
-// https://www.flickr.com/services/api/misc.urls.html

@@ -41,13 +41,14 @@ export class VisualisationComponent implements OnInit {
   }
 
   openOrNot(bool :any){
+    console.log(`Is closed ${!bool.is_closed}`)
     return !bool.is_closed
   }
 
   appeler(event: any, phone: string){
     let target = event.target
     if(phone)
-    target.innerHTML = `<span style="font-weight: lighter;">${phone}</span>`;
+    target.innerHTML = `<span style="font-weight: lighter;">${phone.replace("+33", "0")}</span>`;
     else target.innerHTML = `<span style="font-weight: lighter;">Pas de numéro</span>`;
 
   }

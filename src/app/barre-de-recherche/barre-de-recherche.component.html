@@ -2,7 +2,7 @@
     <div id="search">
         <mat-form-field class="example-full-width">
             <mat-label>Une recherche ?</mat-label>
-            <input type="text" [(ngModel)]="term" matInput>
+            <input type="text" [(ngModel)]="term" (keyup)="onKey($event)" matInput>
         </mat-form-field>
         <button mat-stroked-button (click)="recherche()">Let's go !</button>
     </div>
