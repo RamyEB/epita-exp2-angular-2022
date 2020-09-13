@@ -34,7 +34,7 @@ export class NetworkService {
     let lat = window.localStorage.getItem("Latitude");
 
     let url = `https://yelp-bypass.herokuapp.com/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
-    
+
     return this.http.get<Yelp>(url)
       
   }
