@@ -8,7 +8,7 @@
 
 .zeroSearch{
         height: 100vh;
-        transition: 1.1s ease;
+        transition: 0.5s ease;
     }
 
 .firstSearch{
@@ -60,7 +60,6 @@
     #search {
         display: flex;
         flex-direction: column;
-        width: 90%;
     }
     #search mat-form-field {
         margin-right: 0px;

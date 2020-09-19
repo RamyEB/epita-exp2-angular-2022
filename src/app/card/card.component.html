@@ -1,0 +1,33 @@
+<div class="element" >
+
+    <div class="imgContainer">
+        <img class="imgBusiness" [src]="business.image_url != '' ? business.image_url : dummy_image">
+
+    </div>
+    <div class="info"> 
+        <div class="text">
+            <p class="title">{{business.name}}</p>
+            <p class="adress">{{business.location.address1}}, {{business.location.zipcode}} {{business.location.city}}<br><span style="color:grey;">À {{(business.distance / 1000).toFixed(1)}} km de vous !</span></p>
+        </div>
+        <div class="options">
+          <p *ngIf="business.price != undefined" class="price">{{(business.price).replace("$", "€")}}</p>
+          <p *ngIf="business.price == undefined" style="color:grey" class="price">----</p>
+            <div class="stars">
+                <img *ngFor="let item of arrayStars(business.rating); let i=index"  class="star" style="width:15px" src="../../assets/images/star.png">
+            </div>
+
+            <div class="avaible">
+                <div *ngIf="business.is_closed; else elseTemplate" class="main">
+                    <p class="closet"><img class="avaible_logo" style="width:15px" src="../../assets/images/close.png"> Fermé</p>
+                  </div>
+                  <ng-template #elseTemplate>
+                      <p class="open"><img class="avaible_logo" style="width:15px" src="../../assets/images/dot.png"> Ouvert</p>
+
+                </ng-template>
+            </div>
+            <button mat-flat-button color="primary" (click)="appeler($event, business.phone)"><img class="phone_logo" style="width:15px"src="../../assets/images/phone.png">Appeler</button>
+        </div>
+
+    </div>
+
+</div>
