@@ -1,18 +1,18 @@
 #wallpaper {
     width: 100%;
-    background-color: brown;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
     display: grid;
     place-items: center;
     min-height: 150px;
+    height: 100vh;
+    transition: 0.5s ease;
+
+
 }
 
-.zeroSearch{
-        height: 100vh;
-        transition: 0.5s ease;
-    }
 
 .firstSearch{
-    height: 30vh;
+    height: 30vh !important;
 }
 
 
@@ -65,7 +65,7 @@
         margin-right: 0px;
     }
     #wallpaper {
-        background-color: #fff;
+        background: #fff;
     }
     .example-full-width {
         width: 100%;

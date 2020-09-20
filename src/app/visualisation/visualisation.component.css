@@ -1,12 +1,11 @@
 
 #giga_result_container {
     width: 100%;
-    /* min-height: 500px; */
-    height: max-content;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    height: 0vh;
+    transition: 0.5s ease;
 }
 
 #result_container {
-    background-color: white;
     width: 80%;
     max-width: 1200px;
     margin: auto;
@@ -36,6 +35,11 @@ flex-wrap: wrap;
 padding-top: 20px;
 }
 
+.transformContainer{
+     min-height: 70vh !important; 
+    height: max-content !important;
+}
+
 #nbResults {
     color: grey;
 }
@@ -44,4 +48,3 @@ app-card {
     width: 550px;
     margin: auto;
 }
-

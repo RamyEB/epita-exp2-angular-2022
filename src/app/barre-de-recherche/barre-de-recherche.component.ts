@@ -16,6 +16,8 @@ export class BarreDeRechercheComponent implements OnInit {
     this.term = ""
     document.getElementById("wallpaper").classList.add("firstSearch");
     document.getElementById("result_container").classList.add("firstSearchMargin");
+    document.getElementById("giga_result_container").classList.add("transformContainer");
+
 
 
   }
