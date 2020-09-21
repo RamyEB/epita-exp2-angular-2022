@@ -1,4 +1,4 @@
-<app-barre-de-recherche (searchName)="launchSearch($event)"></app-barre-de-recherche>
+<app-barre-de-recherche  (filtre_emit)="launchSearch($event)"></app-barre-de-recherche>
 <div id="giga_result_container">
   <div id="result_container">
     <div *ngIf="businesses?.length > 0" id="result_container_if" >

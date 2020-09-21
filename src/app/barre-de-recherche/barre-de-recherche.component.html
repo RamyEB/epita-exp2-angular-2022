@@ -1,9 +1,37 @@
 <div id="wallpaper">
-    <div id="search">
-        <mat-form-field class="example-full-width">
-            <mat-label>Une recherche ?</mat-label>
-            <input type="text" [(ngModel)]="term" (keyup)="onKey($event)" matInput>
-        </mat-form-field>
-        <button mat-stroked-button (click)="recherche()">Let's go !</button>
-    </div>
+    <p class="animate__animated my-animated-title" id="YAYC" >YAYC</p>
+    <p class="animate__animated my-animated-subtitle" id="titleText">YET ANOTHER YELP CLONE</p>
+    <form id="form" (ngSubmit)="onSubmit(formulaire)" #formulaire="ngForm">
+
+        <mat-expansion-panel id="search" [disabled]="true" #mep="matExpansionPanel">
+            <mat-expansion-panel-header>
+                <mat-form-field class="example-full-width">
+
+                    <mat-label for="term">Une recherche ?</mat-label>
+                     <input name="term" type="text form-control"  matInput ngModel>
+
+                </mat-form-field>
+
+                <button id="SubmitButton" class="boutton" type="submit" mat-stroked-button>Let's go !</button>
+                <button class="boutton filtre" mat-stroked-button type="button" (click)="mep.expanded = !mep.expanded">Filtres</button>
+            </mat-expansion-panel-header>
+
+            <div class="contenu">
+                <mat-form-field  class="prix contenuEnfant form-control" appearance="fill" >
+                    <mat-label>Prix</mat-label>
+                    <mat-select class="form-control"  name="prix" ngModel>
+                        <mat-option  *ngFor="let prix of prices" [value]="prix.value" >
+                            {{prix.viewValue}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-slide-toggle name="open" class="contenuEnfant form-control" ngModel >Ouvert uniquement</mat-slide-toggle>
+
+                <div class="rayon contenuEnfant">                
+                    <p>Rayon</p>
+                    <mat-slider name="rayon" class="form-control" thumbLabel [displayWith]="formatLabel" min="1" max="40000" ngModel></mat-slider>
+                </div>
+            </div>
+    </mat-expansion-panel>
+    </form>
 </div>

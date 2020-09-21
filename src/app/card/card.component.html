@@ -1,9 +1,9 @@
 <div class="element" >
 
-    <div class="imgContainer">
-        <img class="imgBusiness" [src]="business.image_url != '' ? business.image_url : dummy_image">
+        <a [href]="business.url"  target="_blank" class="imgContainer">
+            <img class="imgBusiness" [src]="business.image_url != '' ? business.image_url : dummy_image">
+        </a>
 
-    </div>
     <div class="info"> 
         <a [href]="business.url" class="text" target="_blank">
             <p class="title">{{business.name}}</p>

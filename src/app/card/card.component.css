@@ -19,9 +19,7 @@ a{
     animation-name: cardsAppear;
     animation-duration: 0.4s;
     background: #fff;
-
 }
-
 
 @keyframes cardsAppear {
     from {opacity: 0;}
