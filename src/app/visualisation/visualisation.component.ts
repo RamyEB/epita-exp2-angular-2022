@@ -16,10 +16,8 @@ export class VisualisationComponent implements OnInit {
   
   launchSearch(filtre: Filtre)
   {
-    console.log(filtre)
-
-    this.term = filtre.term;
-    this.networkService.getRestaurants(this.term).subscribe(data => {
+    this.businesses = []
+    this.networkService.getRestaurants(filtre.term, filtre.radius, filtre.open_now, filtre.price).subscribe(data => {
       this.businesses = data.businesses;
       this.total = data.total;
     },

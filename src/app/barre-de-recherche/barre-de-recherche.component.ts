@@ -18,7 +18,7 @@ export class BarreDeRechercheComponent implements OnInit {
   
   filtre: Filtre =   {
     term: "",
-    price: 5,
+    price: 4,
     radius: 40000,
     open_now: false
   }
@@ -31,13 +31,15 @@ export class BarreDeRechercheComponent implements OnInit {
     if(form.value.rayon!="")
       this.filtre.radius = form.value.rayon
       
-    if(form.value.prix!="")
-    this.filtre.price = Number(form.value.prix)
+    if(form.value.prix != "")
+      this.filtre.price = Number(form.value.prix)
+    else
+      this.filtre.price = 4
 
     if(form.value.open!="")
-    this.filtre.open_now = true
+      this.filtre.open_now = true
     else
-    this.filtre.open_now = false
+      this.filtre.open_now = false
 
     this.filtre.term = form.value.term
 
@@ -65,8 +67,7 @@ export class BarreDeRechercheComponent implements OnInit {
     {value: '1', viewValue: '€'},
     {value: '2', viewValue: '€€'},
     {value: '3', viewValue: '€€€'},
-    {value: '4', viewValue: '€€€€'},
-    {value: '5', viewValue: 'none'}
+    {value: '4', viewValue: '€€€€'}
   ];
 
   panelOpenState: boolean = false;

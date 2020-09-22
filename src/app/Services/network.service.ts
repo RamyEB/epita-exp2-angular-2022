@@ -26,16 +26,31 @@ export class NetworkService {
     });
   }
 
+  priceManager(price)
+  {
+    let s = ""
+    price += 1;
+      for (let i = 1; i < price; ++i)
+        s += i + ", "
+      return s.slice(0, -2)
+  }
 
-  getRestaurants(term): Observable<Yelp>
+  getRestaurants(term, radius, open, price): Observable<Yelp>
   {
     
     let lng = window.localStorage.getItem("Longitude");
     let lat = window.localStorage.getItem("Latitude");
 
+    /* console.log(term, radius, open, price) */
+
+    console.log("Price " + price)
     let url = `https://yelp-bypass.herokuapp.com/?url=https://api.yelp.com/v3/businesses/search?term=${term}%26latitude=${lat}%26longitude=${lng}`
 
+    url += `%26radius=${radius}`
+    url += `%26open_now=${open}`
+    url += `%26price=${this.priceManager(price)}`
+
+    console.log(url)
     return this.http.get<Yelp>(url)
-      
   }
 }
