@@ -67,7 +67,8 @@ export class BarreDeRechercheComponent implements OnInit {
     {value: '1', viewValue: '€'},
     {value: '2', viewValue: '€€'},
     {value: '3', viewValue: '€€€'},
-    {value: '4', viewValue: '€€€€'}
+    {value: '4', viewValue: '€€€€'},
+    {value: '5', viewValue: 'all'}
   ];
 
   panelOpenState: boolean = false;
